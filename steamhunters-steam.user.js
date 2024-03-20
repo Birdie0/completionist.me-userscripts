@@ -10,11 +10,12 @@
 // @match        http://steamcommunity.com/*
 // @match        https://steamcommunity.com/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://completionist.me/userscript/steamhunters-steam.user.js
-// @downloadURL  https://completionist.me/userscript/steamhunters-steam.user.js
+// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/steamhunters-steam.user.js
+// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/steamhunters-steam.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @require      https://peterolson.github.io/BigInteger.js/BigInteger.min.js
 // @run-at       document-end
+// @inject-into  content
 // ==/UserScript==
 
 'use strict'

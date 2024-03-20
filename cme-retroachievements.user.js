@@ -8,10 +8,11 @@
 // @match        http://retroachievements.org/*
 // @match        https://retroachievements.org/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://completionist.me/userscript/cme-retroachievements.user.js
-// @downloadURL  https://completionist.me/userscript/cme-retroachievements.user.js
+// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/cme-retroachievements.user.js
+// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/cme-retroachievements.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
+// @inject-into  content
 // ==/UserScript==
 
 'use strict'

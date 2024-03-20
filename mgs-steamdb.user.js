@@ -8,10 +8,11 @@
 // @match        https://steamdb.info/app/*
 // @match        https://steamdb.info/calculator/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://completionist.me/userscript/mgs-steamdb.user.js
-// @downloadURL  https://completionist.me/userscript/mgs-steamdb.user.js
+// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/mgs-steamdb.user.js
+// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/mgs-steamdb.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
+// @inject-into  content
 // ==/UserScript==
 
 'use strict'
