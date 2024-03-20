@@ -2,7 +2,7 @@
 // @name         Exophase.com AStats
 // @namespace    https://completionist.me/tools
 // @icon         https://www.exophase.com/assets/zeal/_icons/android-chrome-192x192.png
-// @version      2.10.0
+// @version      2.10.1
 // @description  Exophase.com integration for AStats
 // @author       luchaos
 // @match        http://astats.astats.nl/astats/*
@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.0'
+var version = '2.10.1'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

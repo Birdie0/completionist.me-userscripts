@@ -2,7 +2,7 @@
 // @name         MetaGamerScore SteamDB
 // @namespace    https://completionist.me/tools
 // @icon         https://d2llvuv5f1qa0o.cloudfront.net/images/favicon.png
-// @version      2.10.0
+// @version      2.10.1
 // @description  MetaGamerScore integration for SteamDB
 // @author       luchaos
 // @match        https://steamdb.info/app/*
@@ -16,7 +16,7 @@
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.0'
+var version = '2.10.1'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

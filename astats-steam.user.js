@@ -2,7 +2,7 @@
 // @name         AStats Steam
 // @namespace    https://completionist.me/tools
 // @icon         https://astats.astats.nl/favicon.ico
-// @version      2.10.0
+// @version      2.10.1
 // @description  AStats integration for Steam
 // @author       luchaos
 // @match        http://store.steampowered.com/*
@@ -19,7 +19,7 @@
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.0'
+var version = '2.10.1'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')
