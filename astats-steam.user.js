@@ -2,7 +2,7 @@
 // @name         AStats Steam
 // @namespace    https://completionist.me/tools
 // @icon         https://astats.astats.nl/favicon.ico
-// @version      2.10.1
+// @version      2.10.2
 // @description  AStats integration for Steam
 // @author       luchaos
 // @match        http://store.steampowered.com/*
@@ -10,8 +10,8 @@
 // @match        http://steamcommunity.com/*
 // @match        https://steamcommunity.com/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/astats-steam.user.js
-// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/astats-steam.user.js
+// @updateURL    https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/astats-steam.user.js
+// @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/astats-steam.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @require      https://peterolson.github.io/BigInteger.js/BigInteger.min.js
 // @run-at       document-end
@@ -19,7 +19,7 @@
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.1'
+var version = '2.10.2'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

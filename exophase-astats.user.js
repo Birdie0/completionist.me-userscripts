@@ -2,14 +2,14 @@
 // @name         Exophase.com AStats
 // @namespace    https://completionist.me/tools
 // @icon         https://www.exophase.com/assets/zeal/_icons/android-chrome-192x192.png
-// @version      2.10.1
+// @version      2.10.2
 // @description  Exophase.com integration for AStats
 // @author       luchaos
 // @match        http://astats.astats.nl/astats/*
 // @match        https://astats.astats.nl/astats/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/exophase-astats.user.js
-// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/exophase-astats.user.js
+// @updateURL    https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/exophase-astats.user.js
+// @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/exophase-astats.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @require      https://peterolson.github.io/BigInteger.js/BigInteger.min.js
 // @run-at       document-end
@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.1'
+var version = '2.10.2'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

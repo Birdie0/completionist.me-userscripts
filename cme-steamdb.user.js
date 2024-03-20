@@ -2,21 +2,21 @@
 // @name         completionist.me SteamDB
 // @namespace    https://completionist.me/tools
 // @icon         https://completionist.me/assets/images/completionist-logo-120.png
-// @version      2.10.1
+// @version      2.10.2
 // @description  completionist.me integration for SteamDB
 // @author       luchaos
 // @match        https://steamdb.info/app/*
 // @match        https://steamdb.info/calculator/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/cme-steamdb.user.js
-// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/cme-steamdb.user.js
+// @updateURL    https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/cme-steamdb.user.js
+// @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/cme-steamdb.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
 // @inject-into  content
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.1'
+var version = '2.10.2'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

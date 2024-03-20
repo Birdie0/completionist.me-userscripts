@@ -2,21 +2,21 @@
 // @name         completionist.me RetroAchievements
 // @namespace    https://completionist.me/tools
 // @icon         https://completionist.me/assets/images/completionist-logo-120.png
-// @version      2.10.1
+// @version      2.10.2
 // @description  completionist.me integration for RetroAchievements
 // @author       luchaos
 // @match        http://retroachievements.org/*
 // @match        https://retroachievements.org/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/cme-retroachievements.user.js
-// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/cme-retroachievements.user.js
+// @updateURL    https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/cme-retroachievements.user.js
+// @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/cme-retroachievements.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
 // @inject-into  content
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.1'
+var version = '2.10.2'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

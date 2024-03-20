@@ -2,21 +2,21 @@
 // @name         MetaGamerScore SteamDB
 // @namespace    https://completionist.me/tools
 // @icon         https://d2llvuv5f1qa0o.cloudfront.net/images/favicon.png
-// @version      2.10.1
+// @version      2.10.2
 // @description  MetaGamerScore integration for SteamDB
 // @author       luchaos
 // @match        https://steamdb.info/app/*
 // @match        https://steamdb.info/calculator/*
 // @supportUrl   https://completionist.me/feedback
-// @updateURL    https://github.com/Birdie0/completionist.me-userscripts/raw/mod/mgs-steamdb.user.js
-// @downloadURL  https://github.com/Birdie0/completionist.me-userscripts/raw/mod/mgs-steamdb.user.js
+// @updateURL    https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/mgs-steamdb.user.js
+// @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/mgs-steamdb.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
 // @inject-into  content
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.1'
+var version = '2.10.2'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')
