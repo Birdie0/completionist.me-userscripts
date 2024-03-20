@@ -2,7 +2,7 @@
 // @name         AStats SteamDB
 // @namespace    https://completionist.me/tools
 // @icon         https://astats.astats.nl/favicon.ico
-// @version      2.10.2
+// @version      2.10.3
 // @description  AStats integration for SteamDB
 // @author       luchaos
 // @match        https://steamdb.info/app/*
@@ -13,11 +13,10 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @require      https://peterolson.github.io/BigInteger.js/BigInteger.min.js
 // @run-at       document-end
-// @inject-into  content
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.2'
+var version = '2.10.3'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

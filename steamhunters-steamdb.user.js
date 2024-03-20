@@ -2,7 +2,7 @@
 // @name         Steam Hunters SteamDB
 // @namespace    https://completionist.me/tools
 // @icon         https://steamhunters.com/content/img/steam_hunters.svg
-// @version      2.10.2
+// @version      2.10.3
 // @description  Steam Hunters integration for SteamDB
 // @author       luchaos
 // @match        https://steamdb.info/app/*
@@ -12,11 +12,10 @@
 // @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/steamhunters-steamdb.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
-// @inject-into  content
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.2'
+var version = '2.10.3'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')

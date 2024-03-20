@@ -2,7 +2,7 @@
 // @name         Exophase SteamDB
 // @namespace    https://completionist.me/tools
 // @icon         https://www.exophase.com/assets/zeal/_icons/android-chrome-192x192.png
-// @version      2.10.2
+// @version      2.10.3
 // @description  Exophase integration for SteamDB
 // @author       luchaos
 // @match        https://steamdb.info/app/*
@@ -12,11 +12,10 @@
 // @downloadURL  https://raw.githubusercontent.com/Birdie0/completionist.me-userscripts/mod/exophase-steamdb.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @run-at       document-end
-// @inject-into  content
 // ==/UserScript==
 
 'use strict'
-var version = '2.10.2'
+var version = '2.10.3'
 var url = new URL(window.location.href.toLowerCase())
 var fragment = url.pathname.match(/([^\/]*)\/*$/)[1]
 var fragments = url.pathname.split('/')
