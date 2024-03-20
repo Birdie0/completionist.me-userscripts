@@ -328,7 +328,7 @@ var steamCommunity = (function () {
     content.append(submitButton)
     var analyzer = $('<div class="rightbox" style="margin-top:20px"><div class="rightbox_content_header">' + provider.icon(22) + ' completionist.me Apps Analyzer</div></div>')
     analyzer.append(content)
-    $('.rightcol').append(analyzer)
+    $('.leftcol').append(analyzer)
   }
 
   return {
