@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trackers Everywhere
 // @namespace    https://completionist.me/tools
-// @icon         https://completionist.me/images/completionist-logo-120.png
+// @icon         https://completionist.me/assets/images/completionist-logo-120.png
 // @version      2.10.0
 // @description  Trackers Everywhere integration
 // @author       luchaos
